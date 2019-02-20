@@ -1,0 +1,6 @@
+cmake
+logging
+database
+cli
+tests
+docker

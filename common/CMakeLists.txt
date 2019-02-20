@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+project(common C)
+
+AUX_SOURCE_DIRECTORY(src/ SRC_LIST)
+
+ADD_LIBRARY(${PROJECT_NAME} STATIC ${SRC_LIST})
+
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")
+INCLUDE_DIRECTORIES(../include)
+
