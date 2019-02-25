@@ -1,17 +1,17 @@
-0. What is it?
+What is it?
 -------------
 
 This is a server and client applications.
 Server waiting for a data from clients, and store it in database.
 
-1. Build
+Build
 -------------
 
     $ mkdir build && cd build
     $ cmake ../
     $ make
 
-2. Run
+Run
 -------------
 
 Run the server
@@ -24,7 +24,7 @@ Run the client
 
 Run with `-help` argument to see how to use
 
-3. Log configuration
+Log configuration
 -------------
 
 Project uses zlog library. Config file located in `config`. 
