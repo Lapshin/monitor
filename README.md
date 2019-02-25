@@ -15,9 +15,11 @@ Server waiting for a data from clients, and store it in database.
 -------------
 
 Run the server
+
     $ ./monitor/monitor
 
 Run the client
+
     $ ./client/client
 
 Run with `-help` argument to see how to use
