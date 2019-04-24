@@ -1,6 +1,8 @@
 What is it?
 -------------
 
+Programming testing task for a company.
+
 This is a server and client applications.
 Server waiting for a data from clients, and store it in database.
 
